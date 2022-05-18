@@ -1,0 +1,7 @@
+frase = str(input('digite uma frase:')).strip()
+print('a letra A aparece {} vezes'.format(frase.count('a',)))
+print('a primeira letra A aparece na posição {}'.format(frase.find('a')))
+print('a ultima letra A aparece na posição {}'.format(frase.rfind('a')))
+#print('total de letras {}'.format(len(frase)-frase.count(' ')))
+#dividir = frase.split()
+#print('a primeira letra é {}, contendo {} letras'.format(dividir [0], len(frase [0])))
